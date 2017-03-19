@@ -1,4 +1,4 @@
-nose
+mock
+pytest
 sphinx
 gpiozero
-mock
