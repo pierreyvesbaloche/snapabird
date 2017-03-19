@@ -1,5 +1,1 @@
 gpiozero
-mock
-pytest
-pytest-cov
-sphinx
