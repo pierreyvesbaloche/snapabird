@@ -9,7 +9,8 @@ install:
   - pip install -r requirements.txt
   - pip install -r test-requirements.txt
 script:
-  - python setup.py install && python -m pytest
+  - py.test
+#  - python setup.py install && python -m pytest
 after_success:
   - coveralls
 branches:
