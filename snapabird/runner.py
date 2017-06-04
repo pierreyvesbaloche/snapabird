@@ -27,7 +27,7 @@ class Runner(object):
         logging.info("-- run() done")
         os.system("shutdown now -h")
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
     """
     Main Loop.
     """
