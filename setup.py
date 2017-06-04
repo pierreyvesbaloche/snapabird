@@ -17,5 +17,7 @@ setup(
     author_email='funkypiwy@gmail.com',
     url='https://github.com/pierreyvesbaloche/snapabird',
     license=license,
+    setup_requires=['pytest-runner'],
+    tests_require=['pytest'],
     packages=find_packages(exclude=('tests', 'docs'))
 )
